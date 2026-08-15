@@ -8,6 +8,8 @@ It favors practical food over shakes and does not provide medical advice.
 # Dependencies
 
 - Runtime: Astro 7 on Node.js for local development and static builds.
+- Hosting: Cloudflare Pages project `veg-protein-food`, deployed by direct
+  Wrangler upload.
 - Data: a checked-in multi-publisher recipe collection with source-published
   serving macros, source links, key ingredients, and India-fit notes.
 - Production dependencies: Astro only.
@@ -15,6 +17,9 @@ It favors practical food over shakes and does not provide medical advice.
 
 # Timeline
 
+- 2026-08-15 — Published the first public release on Cloudflare Pages at
+  `veg-protein-food.significanthobbies.com` from the public Significant Hobbies
+  repository.
 - 2026-08-15 — Expanded the checked collection to 50 recipes while holding
   drinks at five, accepted concentrated vegetarian protein strategies, and
   added protein-source visibility and filtering.
@@ -34,8 +39,10 @@ It favors practical food over shakes and does not provide medical advice.
 
 # Products
 
+- Public site: `https://veg-protein-food.significanthobbies.com/`.
+- Provider origin: `https://veg-protein-food.pages.dev/`.
+- Public source: `https://github.com/Significant-Hobbies/veg-protein-food`.
 - Local web app at `http://127.0.0.1:4173/` when the dev server is running.
-- No production deployment yet.
 
 # Features (shipped)
 
@@ -59,4 +66,4 @@ It favors practical food over shakes and does not provide medical advice.
 
 # Work queue
 
-No GitHub repository or issue queue has been created yet.
+<https://github.com/Significant-Hobbies/veg-protein-food/issues>

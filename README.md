@@ -4,6 +4,8 @@ A standalone Astro ledger for protein-dense egg-free vegetarian recipes. The
 checked collection contains 50 original-source-linked recipes that each publish
 at least 10 g protein per serving and at least 10 g protein per 100 kcal.
 
+Live at <https://veg-protein-food.significanthobbies.com/>.
+
 The homepage is food-first: 45 meals, components, breads, breakfasts, bars, and
 desserts appear before five explicitly categorized drinks. Search ingredients,
 recipes, or publishers; remove recipes through multi-select ingredient
@@ -35,3 +37,14 @@ npm run check
 `npm run check` enforces the collection size, the two protein gates, the
 45-food/5-drink composition, normalized protein-source metadata, source attribution, Astro build, and the standalone
 product boundary. Astro is the only direct production dependency.
+
+## Deployment
+
+The static `dist/` build is deployed directly to the `veg-protein-food`
+Cloudflare Pages project:
+
+```bash
+npm run check
+npx --yes wrangler@4.123.0 pages deploy dist \
+  --project-name veg-protein-food --branch main
+```
