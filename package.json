@@ -10,7 +10,8 @@
     "data:fetch": "node scripts/fetch-source-descriptions.mjs",
     "data:rebuild": "node scripts/rebuild-data.mjs",
     "test": "node --test",
-    "check": "node --test && node scripts/check.mjs && astro build"
+    "check": "node --test && node scripts/check.mjs && astro build",
+    "deploy": "npm run build && wrangler pages deploy dist --project-name veg-protein-food --branch main --commit-hash \"$(git rev-parse HEAD)\""
   },
   "dependencies": {
     "astro": "^7.2.2"
