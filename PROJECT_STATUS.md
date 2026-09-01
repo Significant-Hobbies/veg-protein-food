@@ -17,6 +17,9 @@ It favors practical food over shakes and does not provide medical advice.
 
 # Timeline
 
+- 2026-08-31 — Wired the product's dedicated Microsoft Clarity project on the
+  public no-account index, disclosed its use alongside PostHog, and left
+  production unchanged pending a separately approved deploy.
 - 2026-08-15 — Published the first public release on Cloudflare Pages at
   `veg-protein-food.significanthobbies.com` from the public Significant Hobbies
   repository.
