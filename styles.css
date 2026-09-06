@@ -796,6 +796,7 @@ a:focus-visible {
 .footer {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   gap: 40px;
   margin-top: 72px;
   padding: 24px 0 42px;
@@ -803,6 +804,24 @@ a:focus-visible {
   color: var(--muted);
   font-size: 11px;
   line-height: 1.5;
+}
+
+.footer-text {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.footer-github-link {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--muted);
+  transition: color 150ms ease;
+}
+
+.footer-github-link:hover {
+  color: var(--cobalt-hover);
 }
 
 .footer p {
